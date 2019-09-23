@@ -20,5 +20,14 @@ public class TestCalc {
 		int prod = calc.mul(5, 5);
 		assertEquals(25,prod);
 	}
+	
+	@Test
+	public void testSubtract()
+	{
+		Calculator calc = new Calculator();
+		int result = calc.subtract(10, 2);
+		assertEquals(8, result);
+	}
+	
 
 }
