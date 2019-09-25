@@ -9,7 +9,6 @@ public class Calculator {
 	
 	public int mul(int x, int y)
 	{
-		int z = 0;
 		return x * y;
 	}
 	
